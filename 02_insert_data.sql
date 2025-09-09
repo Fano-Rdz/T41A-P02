@@ -1,3 +1,15 @@
+-- Insertar alumnos
+INSERT INTO alumno VALUES
+('A001', 'Ana Torres'),
+('A002', 'Luis Gómez'),
+('A003', 'María López'),
+('A004', 'Carlos Ruiz'),
+('A005', 'Laura Méndez'),
+('A006', 'Pedro Sánchez'),
+('A007', 'Sofía Díaz'),
+('A008', 'Jorge Ramírez'),
+('A009', 'Elena Castro'),
+('A010', 'Tomás Ortega');
 
 -- Insertar maestros 
 INSERT INTO maestro(id, nombre) VALUES
@@ -24,19 +36,6 @@ INSERT INTO grupo(id, periodo, seccion, materia, maestro_id) VALUES
 ('G008', '20253S', 'S38E', 'SQL Avanzado', 'M008'),
 ('G009', '20253S', 'S38A', 'PostgreSQL', 'M009'),
 ('G010', '20253S', 'S38A', 'PostgreSQL', 'M010');
-
--- Insertar alumnos
-INSERT INTO alumno VALUES
-('A001', 'Ana Torres'),
-('A002', 'Luis Gómez'),
-('A003', 'María López'),
-('A004', 'Carlos Ruiz'),
-('A005', 'Laura Méndez'),
-('A006', 'Pedro Sánchez'),
-('A007', 'Sofía Díaz'),
-('A008', 'Jorge Ramírez'),
-('A009', 'Elena Castro'),
-('A010', 'Tomás Ortega');
 
 -- Insertar inscripciones
 INSERT INTO inscripcion VALUES
